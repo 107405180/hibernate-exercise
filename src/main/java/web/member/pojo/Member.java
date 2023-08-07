@@ -40,21 +40,15 @@ public class Member extends Core {
 		this.lastUpdatedDate = lastUpdatedDate;
 	}
 
-	@Column(name = "USERNAME")
 	private String username;
-	@Column(name = "PASSWORD")
 	private String password;
-	@Column(name = "NICKNAME")
 	private String nickname;
-	@Column(name = "PASS")
 	private Boolean pass;
 	@Column(name = "ROLE_ID")
 	private Integer roleId;
-	@Column(name = "CREATOR")
 	private String creator;
 	@Column(name = "CREATED_DATE")
 	private Timestamp createdDate;
-	@Column(name = "UPDATER")
 	private String updater;
 	@Column(name = "LAST_UPDATED_DATE")
 	private Timestamp lastUpdatedDate;
