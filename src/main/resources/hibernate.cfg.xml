@@ -18,6 +18,6 @@
         <property name="hibernate.highlight_sql">true</property>
         
         <mapping class="web.member.pojo.Member" />
-<!--         跟hibernate說要mapping，讓他幫忙掃這個檔	一下 -->
+<!--         跟hibernate說要mapping到pojo，讓他幫忙掃這個檔	一下 -->
     </session-factory>
 </hibernate-configuration>
